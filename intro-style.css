@@ -3,7 +3,7 @@
 }
 
 body { 
-    background-color:cadetblue;
+    background: linear-gradient(to left, chocolate, brown);
 }
 
 .LogoImage { 
@@ -12,9 +12,9 @@ body {
 
 .logopicture { 
     border-radius: 50%; 
-    height: 200px; 
-    width: 200px; 
-    border: 1px solid lightblue; 
+    height: 300px; 
+    width: 300px; 
+    
     /* Center the image*/
     display: block; 
     margin: 0 auto; 
@@ -40,11 +40,17 @@ body {
     font-size: 20px; 
     transition: 0.3s; 
     text-align:center;
+    justify-content: center; /* Centers horizontally */
+    align-items: center; /* Centers vertically */
+    text-align: center; /* Aligns text within the button */
 }
 
 .button:hover { 
     background-color:lightblue;
     color: black; 
+    justify-content: center; /* Centers horizontally */
+    align-items: center; /* Centers vertically */
+    text-align: center; /* Aligns text within the button */
 }
 
 .button_icon { 
@@ -54,6 +60,9 @@ body {
     height: 25px; 
     left: 50px; 
     top: 15px; 
+    justify-content: center; /* Centers horizontally */
+    align-items: center; /* Centers vertically */
+    text-align: center; /* Aligns text within the button */
 }
 
 .button_text { 
@@ -62,4 +71,7 @@ body {
     margin: 0 auto; 
     position: relative; 
     float: center; 
+    justify-content: center; /* Centers horizontally */
+    align-items: center; /* Centers vertically */
+    text-align: center; /* Aligns text within the button */
 }
