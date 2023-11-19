@@ -79,7 +79,7 @@ button:hover {
   height: 200px;
   word-wrap: break-word;
   margin: 10px;
-  background-color: chocolate;
+  background-color: white;
   box-shadow: 0 2px 4px rgba(0,0,0,0.5);
   perspective: 1000px;
 
@@ -118,3 +118,19 @@ button:hover {
     width: 100%;
   }
 }
+/* BELOW IS FOR QUIZZER */ 
+
+.create_quiz {
+  width: 800px;
+  height: 400px;
+  margin: auto;
+  padding: 20px;
+  margin-top: 10px;
+  border-radius: 5px; 
+  background-color: white;
+  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.5);
+
+}
+
+
+
