@@ -3,9 +3,63 @@
 }
 
 body { 
-    background-color: burlywood;
+    background-color:cadetblue;
 }
 
 .LogoImage { 
     margin-top: 60px;
+}
+
+.logopicture { 
+    border-radius: 50%; 
+    height: 200px; 
+    width: 200px; 
+    border: 1px solid lightblue; 
+    /* Center the image*/
+    display: block; 
+    margin: 0 auto; 
+}
+
+.name { 
+    text-align: center;
+    font-size: 400%;
+}
+
+.button { 
+    background-color:white; 
+    color: black; 
+    display: block; 
+    height: 60px; 
+    width: 400px; 
+    border-radius: 20px; 
+    margin: 20px auto; 
+    text-decoration: none; 
+    text-align: center; 
+    font-weight: bold; 
+    line-height: 60 px;  
+    font-size: 20px; 
+    transition: 0.3s; 
+    text-align:center;
+}
+
+.button:hover { 
+    background-color:lightblue;
+    color: black; 
+}
+
+.button_icon { 
+    position: relative; 
+    float: left; 
+    width: 25px; 
+    height: 25px; 
+    left: 50px; 
+    top: 15px; 
+}
+
+.button_text { 
+    text-align: center;
+    display: block; 
+    margin: 0 auto; 
+    position: relative; 
+    float: center; 
 }
