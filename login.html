@@ -18,33 +18,39 @@
         <div class = "login-title">
 
             <h1>
-                Login With Google
+                Login
             </h1>
-            
-            
         </div>
 
-        <div class = "username">
+        <div class = "main-containers">
 
          
             <input type = "text" placeholder = "Enter Username or Email" id = "username" required>
 
-        </div>
+        
 
-        <br>    
-
-        <div class = "password">
+       <br><br>
 
             
             <input type = "text" placeholder = "Enter Password" id = "password" required>
 
-        </div>
+        
         
         <br>
 
-        <div class = "button">
-            <button type = "button" onclick="getInfo()">Login</button>
+        
         </div>
+
+        <div class = "sub-container">
+            <label>
+                <input type = "checkbox" checked = "checked" name = "remember">Remember me
+            </label>
+
+            <p class = "forgotpassword"> <a href = "#">Forgot password?</a></p>
+        </div>
+
+        <button type = "submit">login</button>
+
 
         <script src = "js/main.js"></script>
     </body>
