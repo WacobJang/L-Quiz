@@ -13,8 +13,8 @@
   justify-content: center;
   background-image: radial-gradient(
     circle farthest-corner at 10% 20%,
-    chocolate,
-    brown
+    brown,
+    chocolate
   );
 }
 
