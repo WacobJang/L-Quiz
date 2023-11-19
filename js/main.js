@@ -18,3 +18,15 @@ function getInfo() {
     }
     console.log("incorrect username or password")
 }
+
+function addInfo() {
+    var username = document.getElementById("username").value
+    var password = document.getElementById("password").value
+
+    objPeople.push({
+        username: username,
+        password: password
+    })
+
+    console.log(objPeople)
+}
