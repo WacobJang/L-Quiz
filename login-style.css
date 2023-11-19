@@ -43,14 +43,18 @@ button:hover {
 
 h1{
     text-align: center;
+    color: black;
 }
 
 form{
+    padding: 10px 30px;
     text-align: center;
+    box-shadow: 0 5px 10px 0 rgba(0, 0, 0, 0.3);
     margin: auto;
-    width: 35rem;
-    backdrop-filter: blur(16px) saturate(120%);   
-    border-radius: 10%; 
+    width: 400px;
+    height: 400px;
+    background-color: white;   
+    border-radius: 10px; 
 }
 
 .bubble {
@@ -60,6 +64,10 @@ form{
     height: 50px;
     border-radius: 50%;
     animation: moveBubble 5s linear infinite;
+}
+
+label {
+    color: black;
 }
 
 @keyframes moveBubble {
