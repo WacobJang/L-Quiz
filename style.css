@@ -7,12 +7,12 @@
 body {
   font-family: 'Times New Roman', Times, serif;
   font-size: 16px;
-  background-color: whitesmoke;
+  background-color: beige;
 
 }
 
 header {
-  background-color: white;
+  background-color: chocolate;
 
 }
 
@@ -40,7 +40,7 @@ button:hover {
   width: 100%;
   margin: auto;
   padding: 20px 0;
-  background: white;
+  background: chocolate;
 }
 
 .nav button{
@@ -81,12 +81,16 @@ button:hover {
   margin: 10px;
   background-color: chocolate;
   box-shadow: 0 2px 4px rgba(0,0,0,0.5);
-
+  perspective: 1000px;
 
 }
 
+
+
+
 .flashcard h2{
   font-size: 1rem;
+  text-align: center;
 }
 
 @media(max-width:768px){
