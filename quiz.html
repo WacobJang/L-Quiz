@@ -1,7 +1,11 @@
 <!DOCTYPE html>
+<head>
   <title> LeQuiz Flashcard Maker  </title>
   <link rel="stylesheet" href="style.css">
-  <head>
+</head>
+<body>
+
+<header>
     <div class="container">
     <div class="nav">
       <h1> LeQuiz </h1>
@@ -11,8 +15,10 @@
       </div>
     </div>
     </div>
-  </head>
+  </header>
+  
   <div class="container"> 
+    <div class="create_box">
     <h2 style="text-align: center; color: black;"> Create FlashCard </h2>
     <label for="question"> Enter Question </label>
     <textarea id="question"> </textarea>
@@ -21,12 +27,15 @@
 
     <label for="answer"> Enter Answer </label>
     <textarea id="answer"></textarea>
+    <div>
+      <button onclick="addFlashCard()"> Save </button>
+      <button onclick="hideCreateBox()"> Close </button>
+    </div>
+   </div> 
+   <div class="flashcards"></div>
   </div>
-  <div>
-    <button onclick="addFlashCard()"> Save </button>
-    <button onlick="hideCreateBox()"> Close </button>
-  </div>
-
-  <body>
+  <script src="script.js"></script>
 
   </body>
+</html>  
+
