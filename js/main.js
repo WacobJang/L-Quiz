@@ -19,6 +19,9 @@ function getInfo() {
     console.log("incorrect username or password")
 }
 
+let contentArray = localStorage.getItem('cred') ? 
+JSON.parse(localStorage.getItem("cred")) : []; 
+
 function addInfo() {
     var username = document.getElementById("username").value
     var password = document.getElementById("password").value
@@ -27,6 +30,9 @@ function addInfo() {
         username: username,
         password: password
     })
+
+    contentArray.push(objPeople);
+    localStorage.setItem('cred', JSON.stringify(contentArray));
 
     console.log(objPeople)
 }
