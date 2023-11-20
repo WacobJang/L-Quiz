@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+
+<link rel="stylesheet" href = "flashcard.css">
+</head>
+
+<body>
+
+    <div class = "f-container">
+
+        <h2 id = "question">Question:</h2>
+
+        <h2 id = "answer">Answer:</h2>
+
+        <p id = "reveal-answer" onclick = "showAnswer()">Show answer</p>
+
+    </div>
+
+    <div id = "user-input">
+
+        <input type = "text" id = "userQuestion" placeholder="Enter question">
+        <br>
+        <input type = "text" id = "userAnswer" placeholder="Enter answer">
+        <br>
+        <button onclick = "createFlashCard()">Create flash card</button>
+    </div>
+
+    <script src = "flashcard.js"></script>
+
+</body>
+</html>
