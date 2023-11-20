@@ -13,6 +13,7 @@ function login() {
 
     if (storedUser && JSON.parse(storedUser).password == password) {
     alert('Login successful!');
+    window.location.assign("quiz.html");
 }   else {
     alert('Invalid username or password.');
 }
@@ -27,10 +28,11 @@ function signup() {
     if (!localStorage.getItem(username)){
         const user = { username, password };
         localStorage.setItem(username, JSON.stringify(user));
-        alert('Signup successful');
+        alert('Signup successful!');
+        
 
     } else {
-    alert('Username already exists. Choose a different username. ');
+    alert('Username already exists, please choose a different username. ');
     }
 
    
