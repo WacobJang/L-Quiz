@@ -4,13 +4,19 @@
   box-sizing: border-box;
 }
 
-.home_button { 
-  position: absolute;
+.home_button {
+
+
+  
+  /* Center the image*/
+  display:flex;
+
+  justify-content: center;
   align-items: center;
-  top: 0;
-  left: 700px; 
-  padding: 10px; 
+  margin-top: 50px auto 0;
+  
 }
+
 
 .homepicture { 
   border-radius: 50%; 
@@ -18,8 +24,11 @@
   width: 50px; 
   
   /* Center the image*/
-  display:block; 
-  margin:0cap; 
+  display:flex;
+
+  justify-content: center;
+  align-items: center;
+  margin-top: 50px auto 0;
 }
 
 body {
