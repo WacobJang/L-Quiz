@@ -5,28 +5,33 @@ var objPeople = [
     }
 ]
 
-function getInfo() {
-    var username = document.getElementById("username").value
-    var password = document.getElementById("password").value
+function login() {
+    const username = document.getElementById("loginUsername").value;
+    const password = document.getElementById("loginPassword").value;
 
-    for(i = 0; i < objPeople.length; i++) {
-        if(username == objPeople[i].username && password == objPeople[i].password) {
-            console.log(username + " is logged in!!!")
-            document.location.href = "quiz.html";
-            return
-        }
-    }
-    console.log("incorrect username or password")
+    const storedUser = localStorage.getItem(username);
+
+    if (storedUser && JSON.parse(storedUser).password == password) {
+    alert('Login successful!');
+}   else {
+    alert('Invalid username or password.');
 }
 
-function addInfo() {
-    var username = document.getElementById("username").value
-    var password = document.getElementById("password").value
+}
 
-    objPeople.push({
-        username: username,
-        password: password
-    })
 
-    console.log(objPeople)
+function signup() {
+    const username = document.getElementById("signupUsername").value;
+    const password = document.getElementById("signupPassword").value;
+
+    if (!localStorage.getItem(username)){
+        const user = { username, password };
+        localStorage.setItem(username, JSON.stringify(user));
+        alert('Signup successful');
+
+    } else {
+    alert('Username already exists. Choose a different username. ');
+    }
+
+   
 }
