@@ -5,9 +5,10 @@
 }
 
 body {
-  font-family: 'Times New Roman', Times, serif;
+  font-family: Arial, Helvetica, sans-serif; 
   font-size: 16px;
   background-color: beige;
+  
 
 }
 
@@ -22,6 +23,7 @@ button {
   cursor: pointer;
   border: 1px solid lightgray;
   border-radius: 5px;
+  align-items: center;
 }
 
 button:hover {
@@ -44,7 +46,7 @@ button:hover {
 }
 
 .nav button{
-  font-family: 'Times New Roman', Times, serif;
+  font-family: Arial, Helvetica, sans-serif;
 }
 
 .create_box {
@@ -112,10 +114,12 @@ button:hover {
 
   .create_box{
     width: 100%;
+    align-items: center;
   }
 
   .flashcard{
     width: 100%;
+    align-items: center;
   }
 }
 /* BELOW IS FOR QUIZZER */ 
