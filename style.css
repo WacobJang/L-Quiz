@@ -5,11 +5,7 @@
 }
 
 .home_button { 
-  position: absolute;
-  align-items: center;
-  top: 0;
-  left: 700px; 
-  padding: 10px; 
+  text-align: center;
 }
 
 
