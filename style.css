@@ -4,6 +4,23 @@
   box-sizing: border-box;
 }
 
+.home_button { 
+  position: absolute;
+  top: 0;
+  right: 0; 
+  padding: 10px; 
+}
+
+.homepicture { 
+  border-radius: 50%; 
+  height: 100px; 
+  width: 100px; 
+  
+  /* Center the image*/
+  display:block; 
+  margin:0cap; 
+}
+
 body {
   font-family: Arial, Helvetica, sans-serif; 
   font-size: 16px;
