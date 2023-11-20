@@ -3,6 +3,24 @@
     
 }
 
+
+.home_button { 
+    position: absolute;
+    top: 0;
+    left: 100; 
+    padding: 10px; 
+}
+  
+.homepicture { 
+    border-radius: 50%; 
+    height: 100px; 
+    width: 100px; 
+    
+    /* Center the image*/
+    display:block; 
+    margin:0cap; 
+}
+
 .username{
     text-align: center;
 }
@@ -90,19 +108,3 @@ label {
     }
 }
 
-.home_button { 
-    position: absolute;
-    top: 0;
-    left: 20; 
-    padding: 10px; 
-  }
-  
-  .homepicture { 
-    border-radius: 50%; 
-    height: 100px; 
-    width: 100px; 
-    
-    /* Center the image*/
-    display:block; 
-    margin:0cap; 
-  }
