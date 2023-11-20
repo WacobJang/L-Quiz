@@ -89,3 +89,20 @@ label {
         transform: translateY(0) rotate(720deg);
     }
 }
+
+.home_button { 
+    position: absolute;
+    top: 0;
+    left: 20; 
+    padding: 10px; 
+  }
+  
+  .homepicture { 
+    border-radius: 50%; 
+    height: 100px; 
+    width: 100px; 
+    
+    /* Center the image*/
+    display:block; 
+    margin:0cap; 
+  }
